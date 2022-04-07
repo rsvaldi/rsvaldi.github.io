@@ -1,0 +1,73 @@
+\documentclass[12pt]{article}
+
+
+\usepackage{amscd,amssymb,amsfonts,amsmath}
+
+
+\pagestyle{plain}
+
+\begin{document}
+
+\title{Mini-course: Fano foliations}
+\author{Carolina Araujo (IMPA)}
+
+
+\maketitle
+
+In the last few decades, much progress has been made in the classification of complex projective varieties.
+The general viewpoint is that complex projective manifolds $X$ should be classified according to the behavior of their canonical class $K_X$.
+As a result of the minimal model program, we know that every complex projective manifold can be built up from
+3 classes of (possibly singular) projective varieties, namely,  varieties $X$ for which  $K_X$  satisfies
+$K_X<0$, $K_X\equiv 0$ or $K_X>0$. 
+Varieties $X$ whose anti-canonical class $-K_X$ is ample are called Fano varieties. 
+
+
+In recent years, techniques from higher dimensional algebraic geometry, specially from 
+the minimal model program, have been successfully applied to the study of global properties of 
+holomorphic foliations. 
+This led, for instance, to the birational classification of foliations by curves on surfaces.
+The Fano condition naturally finds a counterpart in the theory of holomorphic foliations.
+If $\mathcal{F}\subsetneq T_X$ is a foliation on a  complex projective manifold $X$, we define its canonical class to be 
+$K_{\mathcal{F}}=-c_1(\mathcal{F})$. As in the case of projective manifolds,  numerical properties of $K_{\mathcal{F}}$
+reflect geometric aspects of $\mathcal{F}$. 
+We say that  $\mathcal{F}$ is a Fano foliation if $-K_{\mathcal{F}}$ is ample.
+
+In a series of papers in collaboration with St{\'e}phane Druel (\cite{fano_fols}, \cite{codim_1_del_pezzo_fols}, \cite{fano_fols_2} and \cite{codim_1_mukai_fols}),  
+we have carried out a systematic study of Fano foliations. 
+In this mini-course, we shall explain the most important aspects of this theory, including the classification of Fano foliations of high index. 
+
+\
+
+\noindent {\bf Lecture 1.} Basic definitions and examples. Motivation: the problem of stability of the tangent bundle for Fano manifolds. 
+
+\noindent {\bf Lecture 2.} Algebraicity criteria for foliations. Algebraicity for Fano foliations. 
+
+\noindent {\bf Lecture 3.} Algebraically integrable foliations. The log leaf. 
+
+\noindent {\bf Lectures 4 and 5.} Classification of Fano foliations of high index. Further developments, conjectures and open problems. 
+
+
+
+
+
+\begin{thebibliography}{xxxxxx}
+
+
+\bibitem{fano_fols}
+{Carolina Araujo and St{\'e}phane Druel, \emph{On {F}ano foliations}, Adv. Math.
+  \textbf{238} (2013), 70--118.}
+  
+\bibitem{codim_1_del_pezzo_fols}
+{Carolina Araujo and St{\'e}phane Druel, \emph{On codimension 1 del {P}ezzo foliations on varieties with mild
+  singularities}, Math. Ann. \textbf{360} (2014), no.~3-4, 769--798.}
+
+\bibitem{fano_fols_2}
+{Carolina Araujo and St{\'e}phane Druel, \emph{On {F}ano foliations 2}, in Foliation Theory in Algebraic Geometry, Proceedings of the conference "Foliation Theory in Algebraic Geometry", New York, NY, USA, September 3--7, 2013. Simons Symposia, p. 1-20, 2016.}
+
+\bibitem{codim_1_mukai_fols}
+{Carolina Araujo and St{\'e}phane Druel, \emph{Codimension one Mukai foliations on complex projective
+  manifolds}, to appear in J. Reine Angew. Math. }
+
+\end{thebibliography}
+
+\end{document}

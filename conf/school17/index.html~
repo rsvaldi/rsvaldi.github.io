@@ -1,0 +1,156 @@
+<!-- for the realization of this website we thank Jesus Martinez Garcia http://www.math.jhu.edu/jmartinezgarcia/ -->
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+<title>New Advances in Fano Manifolds</title>
+
+<meta name="description" content="New advances in Fano manifolds">
+<meta name="keywords" content="School Fano Cambridge 2017">
+<link rel="stylesheet" href="./sheet.css" type="text/css" media="screen,projection">
+<style type="text/css"></style></head>
+
+  
+<body>
+
+<div id="container">
+
+<div id="header">
+<h1>Postgraduate School: New Advances in Fano Manifolds</h1>
+<h2> 4<sup>th</sup>-8<sup>th</sup> of December 2017, University of Cambridge, UK</h2>
+</div>
+
+
+<div id="navigation">
+<ul>
+  <li class="selected"><a href=./index.html>Home</a></li>
+  <li><a href=./reg.html>Registration</a></li>
+  <li><a href=./participants.html>Participants</a></li>
+  <li><a href=./schedule.html>Schedule</a></li>
+  <li><a href=./abstracts.html>Content</a></li>
+  <li><a href=./arrangements.html>Arrangements</a></li>
+  <li><a href=./support.html>Support</a></li>
+  
+</ul>
+
+</div>
+
+
+
+<div id="content">
+
+<table border="0" cellspacing="50">
+  <tbody><tr>
+      <td valign="top">
+	
+	<h1>About the workshop</h1>
+	<p align="justify">
+	  The main objective of this schools is to introduce PhD students
+	  to some recent progress in the geometry of Fano varieties. 
+	  Fano varieties are of great interest in numerous parts of 
+	  mathematics such as algebraic, differential and arithmetic geometry,
+	  due to the fascinating symmetries they possess. 
+	  <br>
+	  The school will focus in particular on the recent proof of the
+	  Borisov-Alexeev-Borisov Conjecture and 
+	  the classification of Fano foliations with two mini-courses.
+	  <br>
+	  There will also be informal tutorials and exercise sessions 
+	  led by postdocs actively working in the topics covered in the
+	  mini-courses. We hope to stimulate 
+	  discussions among the participants and provide an informal
+	  environment to further explore the material from 
+	  the lectures.
+
+	</p>
+
+<h1>Mini-courses</h1>
+<ul>
+  <li><a href="https://impa.br/page-pessoas/carolina-araujo/" target="_blank">Carolina Araujo</a> (<a href="https://impa.br/" target="_blank">IMPA</a>):“Foliations on Fano varieties”.
+ </li>
+  <li><a href="https://www.dpmms.cam.ac.uk/~cb496/" target="_blank">Caucher Birkar</a> (<a href="https://www.dpmms.cam.ac.uk/" target="_blank">University of Cambridge</a>):“Linear systems on Fano varieties”. 
+Slides <a href="https://www.dpmms.cam.ac.uk/~cb496/linear-sys-fano-var-I.pdf">1</a>, <a href="https://www.dpmms.cam.ac.uk/~cb496/linear-sys-fano-var-II.pdf">2</a>, <a href="https://www.dpmms.cam.ac.uk/~cb496/linear-sys-fano-var-III.pdf">3</a>, <a href="https://www.dpmms.cam.ac.uk/~cb496/linear-sys-fano-var-IV.pdf">4</a>. <a href=b_ex.pdf>Exercises</a>. </li>
+  </ul>
+
+<h1>Teaching Assistants</h1>
+<ul>
+  <li><a href="http://www.math.ucsd.edu/~cwspicer/" target="_blank">Calum Spicer</a> (<a href="https://www.imperial.ac.uk/mathematics" target="_blank">Imperial College</a>)</li>
+  <li><a href="https://www.dpmms.cam.ac.uk/~rs872/" target="_blank">Roberto Svaldi</a> (<a href="https://www.dpmms.cam.ac.uk/" target="_blank">University of Cambridge</a>)</li>
+ <li><a href="http://www.math.ucsd.edu/~cwspicer/" target="_blank">Jakub Witaszek</a> (<a href="https://www.imperial.ac.uk/mathematics" target="_blank">Imperial College</a>)</li>
+  </ul>
+
+
+<h1>Organisers</h1>
+<ul>
+
+  <li><a href="https://www.dpmms.cam.ac.uk/people/lb489/" target="_blank">Lawrence Barrott</a> (<a href="https://www.dpmms.cam.ac.uk/" target="_blank">University of Cambridge</a>) </li>
+  <li><a href="http://wwwf.imperial.ac.uk/~dm2912/" target="_blank">Diletta Martinelli</a> (<a href="http://www.maths.ed.ac.uk/" target="_blank">University of Edinburgh</a>)  </li>
+  <li><a href="https://www.dpmms.cam.ac.uk/~rs872/" target="_blank">Roberto Svaldi</a> (<a href="https://www.dpmms.cam.ac.uk/" target="_blank">University of 
+Cambridge</a>) </li>
+<li><a href="" target="_blank">Jakub Witaszek</a>
+(<a href="https://www.imperial.ac.uk/mathematics" target="_blank">Imperial College</a>) </li>
+
+  </ul>
+
+<h1>Silver COW at Cambridge</h1>
+<p>
+The next meeting of the COW will take place on the 25th anniversary of the first ever COW seminar, which was held in December 1992. To mark the occasion we will be returning to the location of that original meeting, at the University of Cambridge.
+
+The meeting will occur on Wednesday 6th December, with the first talk starting at 2pm. All talks will be held in room MR3. For more info, click <a href="http://cow.alggeo.xyz/nextmeeting.html">here</a>.
+</p>
+
+</td>      
+      <td>
+	<table class="center">
+	  <tbody><tr>
+	      <td> <img src="http://www2.imperial.ac.uk/~ap1813/Traumatic/fano.jpg" alt="Fano manifold">
+		</td>
+  	      </tr>
+	    <tr>
+	      <td><p>An example of a Fano manifold<br>[Credit: Imperial College London]</p>
+		</td>
+	      </tr>
+
+<tr>
+  <td> <img src=./dpmms.jpg 
+alt="DPMMS University of Cambridge">
+    </td>
+  </tr> 
+<tr>
+  <td><p>DPMMS, University of Cambridge<br>
+      <p style="font-size:10px"><br><br>
+	</td>
+  </tr>
+
+
+	    
+	</tbody></table>
+	</td>
+      </tr>
+</tbody>
+</table>
+
+
+
+<div style="text-align: center"><p>For the construction of this website we heartily thank <a href="http://people.bath.ac.uk/jmg51/">Jesus Martinez Garcia</a>!</p>
+
+<p></p>
+
+<p></p>
+Financial support for the conference is kindly provided by</div>
+
+<table class="center">
+  <tbody><tr>
+      <td><img src="./lms.png" alt="London Mathematical Society"></td>
+      </tr>
+    </tbody></table>
+</div>
+
+<div id="footer">
+
+</div>
+
+</div>
+
+</body></html>

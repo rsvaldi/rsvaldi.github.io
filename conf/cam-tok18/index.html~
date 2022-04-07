@@ -1,0 +1,291 @@
+<html>
+<html lang="ja">
+<head>
+<meta http-equiv=Content-Type content="text/html; CHARSET==UTF-8">
+<style type=text/css>  <!--   body{background-attachment:fixed;}A:link {text-decoration:none}    A:visited {text-decoration:none}    A:active {text-decoration:none}  --></style></head>
+  <title>
+Cambridge--Tokyo Algebraic Geometry workshop, II
+  </title>
+</head>
+  <style>
+    .main_title	{font: 17px Verdana, Arial, sans-serif; line-height:19px; font-weight: 900; color: #000000  ; margin-bottom:2%; margin-top:2%; text-align:center}
+    .title	{font: 15px Verdana, Arial, sans-serif; line-height:18px; font-weight: 900; margin-bottom:10px; margin-top:7px; text-align:center}
+    .small_title	{font: 13px Verdana, Arial, sans-serif; line-height:18px; font-weight: 700; margin-top:7px; margin-bottom: 7px}
+    .text	{font: 12px Verdana, Arial, sans-serif; line-height:16px}
+    .baldtext	{font: 12px Verdana, Arial, sans-serif; line-height:16px; font-weight: 700;}
+	.italictext	{font: 12px Verdana, Arial, sans-serif; line-height:16px; font-style: italic;}
+	.japtext	{font: 12px ＭＳ Ｐ明朝,ＭＳ 明朝, sans-serif; line-height:16px; font-style: italic;}
+    a	{font: 12px Verdana, Arial, sans-serif; color: #500000; line-height:16px}
+    table, td {border-collapse:collapse;border: 1px solid black;}
+  </style>
+<body bgcolor=#FFFFFF style="margin-left:4%;margin-right:4%">
+    <div class="main_title">
+ Cambridge--Tokyo Algebraic Geometry workshop, II<br>
+      (Dec. 3-4, 2018) 
+    </div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Isaac_Newton_Institute_building.jpg" style="float:right;width:40%;margin-lef:4%;margin-bottom:2%">
+  <div class="small_title">
+    Speakers: 
+  </div>
+  <ul>
+  
+
+   <li><span class="text">Fabio Bernasconi (Imperial College London)</span>
+   <li><span class="text">Yifei Chen (Chinese Academy of Sciences)</span>
+   <li><span class="text">Weichung Chen (University of Tokyo)</span>  
+   <li><span class="text">Ruadhai Dervan (University of Cambridge)</span>
+   <li><span class="text">Naoki Koseki (University of Tokyo)</span>
+   <li><span class="text">Mirko Mauri (Imperial College London)</span>
+   <li><span class="text">Masaru Nagaoka (University of Tokyo)</span>
+   <li><span class="text">Kentaro Ohno (University of Tokyo)</span>
+
+  <!--li><span class="text"></span-->
+  </ul>
+  <br>
+ 
+  <div class="small_title">
+    Organizers: 
+  </div>
+  <div class="text">
+Caucher Birkar, Yoshinori Gongyo, Roberto Svaldi, Yanning Xu<br>
+  </div>
+  <div class="small_title">
+   Location: 
+  </div>
+  <div class="text">
+Seminar Room 3 in the <a href='https://goo.gl/maps/uxz2yJXXe3L2'>
+Department of Mathematics</a>, Cambridge.<br>
+</div>
+  <div class="small_title">
+   Directions:
+  </div>
+  <div class="text">
+The Department of Mathematics is located on Wilberforce Road, 
+Cambridge CB3 0WB.<br> 
+If you are coming from the train station and you wish to walk
+or bike, clicking 
+<a href='https://goo.gl/maps/3oG19UrohSL2'>here</a> you can 
+find directions. You should expect a 40 minute walk or 
+15 minute ride.<br> 
+Alternatively, you can take a taxi: the drive should take 
+about 10 minutes (depending on traffic conditions) and it should
+cost about 9GBP.
+  </div> 
+<div class="small_title">
+    Attending the conference:
+  </div>
+  <div class="text">
+    If you would like to attend the conference, you are more than 
+    welcome to do so, just please send an e-mail to Roberto Svaldi 
+    (rs872(at)cam.ac.uk), even if you come for just a day or so, 
+    to help us plan with the resources.
+    He can also help you find an accommodation, if you need one.
+    Unfortunately, we do not have funds for non-speaker attendees.
+  </div>
+
+  <div class="small_title">
+    Schedule: Here is a tentative schedule.
+  </div>
+  
+<table style="width:100%;">
+      <tr>
+        <td>
+          <span class="text"></span>
+        </td>
+        <td>
+          <span class="baldtext"> December 3(Monday)</span>
+        </td>
+	<td>
+          <span class="text"></span>
+        </td>
+        <td>
+          <span class="baldtext">December 4 (Tuesday)</span>
+        </td>
+    </tr>
+
+
+ <tr>
+        <td>
+          <span class="baldtext">10:00-11:00</span>
+        </td>
+        <td style="text-align:center">
+          <span class="italictext"><a href="#Dervan">Ruadhai Dervan</a></span>
+        </td>
+	<td>
+          <span class="baldtext">10:00-11:00</span>
+        </td>
+        <td style="text-align:center">
+          <span class="italictext"><a href="#Mirko">Mirko Mauri</a></span>
+        </td>
+      </tr>
+ <tr>
+        <td>
+          <span class="baldtext">11:00-11:30</span>
+        </td>
+        <td style="text-align:center">
+          <span class="italictext">Coffee break</span>
+        </td>
+	<td>
+          <span class="baldtext">11:00-11:30</span>
+        </td>
+        <td style="text-align:center">
+          <span class="italictext">Coffee break</span>
+        </td>
+      </tr>
+<tr>
+        <td>
+          <span class="baldtext">11:30-12:30</span>
+        </td>
+        <td style="text-align:center">
+          <span class="italictext"><a href="#Weichung">Weichung Chen</a></span>
+        </td>
+	<td>
+          <span class="baldtext">11:30-12:30</span>
+        </td>
+        <td style="text-align:center">
+          <span class="italictext"><a href="#Masaru">Masaru Nagaoka</a></span>
+        </td>
+      </tr>
+
+<tr>
+        <td>
+          <span class="baldtext">12:30-14:00</span>
+        </td>
+        <td style="text-align:center">
+          <span class="italictext">Lunch</span>
+        </td>
+	<td>
+          <span class="baldtext">12:30-14:00</span>
+        </td>
+        <td style="text-align:center">
+          <span class="italictext">Lunch</span>
+        </td>
+      </tr>
+
+<tr>
+        <td>
+          <span class="baldtext">14:00-15:00</span>
+        </td>
+        <td style="text-align:center">
+          <span class="italictext"><a href="#Naoki">Naoki Koseki</a></span>
+        </td>
+	<td>
+          <span class="baldtext">14:00-15:00</span>
+        </td>
+        <td style="text-align:center">
+          <span class="italictext"><a href="#Fabio">Fabio Bernasconi</a></span>
+        </td>
+      </tr>
+
+<tr>
+        <td>
+          <span class="baldtext">15:00-15:30</span>
+        </td>
+        <td style="text-align:center">
+          <span class="italictext">Coffee break</span>
+        </td>
+	<td>
+          <span class="baldtext">15:00-15:30</span>
+        </td>
+        <td style="text-align:center">
+          <span class="italictext">Coffee break</span>
+        </td>
+      </tr>
+
+<tr>
+        <td>
+          <span class="baldtext">15:30-16:30</span>
+        </td>
+        <td style="text-align:center">
+          <span class="italictext"><a href="#Kentaro">Kentaro Ohno</a></span>
+        </td>
+	<td>
+          <span class="baldtext">15:30-16:30</span>
+        </td>
+        <td style="text-align:center">
+          <span class="italictext"><a href="#Yifei">Yifei Chen</a></span>
+        </td>
+      </tr>
+
+</table>
+
+<div class="small_title">
+    Abstracts
+  </div>
+  <div id="Dervan">
+    <span  class="baldtext">Ruadhai Dervan</span>
+    <span class="italictext">Moduli of polarised varieties</span></br>
+    <span  class="text">A basic problem in algebraic geometry is to construct a moduli space of varieties together with an ample line bundle. I will discuss a solution to this problem which uses Kähler geometry. This is joint work with Philipp Naumann.
+    </span>
+
+  </div>
+
+<div id="Weichung">
+    <span  class="baldtext">Weichung Chen</span>
+    <span class="italictext">Boundedness of weak Fano pairs with alpha-invariants and volumes bounded below</span></br>
+    <span  class="text">We show that fixed dimensional klt weak Fano pairs with alpha-invariants and volumes bounded away from 0 and the coefficients of the boundaries belong to a fixed DCC set of rational closure form a bounded family. We also show α(X, B)^(d－1)vol(－(K_X + B)) are bounded from above for all klt weak Fano pairs (X, B) of a fixed dimension d.</span>
+</div>
+
+<div id="Naoki">
+    <span  class="baldtext">Naoki Koseki</span>
+    <span class="italictext">Stability conditions on threefolds with nef tangent bundles</span></br>
+    <span  class="text">Constructing Bridgeland stability conditions on threefolds is an open problem in general.
+      By the work of Bayer, Macri, and Toda, the problem is reduced to proving the so-called Bogomolov-Gieseker (BG) type inequality conjecture.
+      In my talk, I will explain how to solve the BG type inequality conjecture for threefolds in the title.</span>
+
+  </div>
+
+<div id="Kentaro">
+    <span  class="baldtext">Kentaro Ohno</span>
+    <span class="italictext">Minimizing CM degree and slope stability of projective varieties</span></br>
+    <span  class="text">We discuss a minimization problem of the degree of the CM line bundle
+      among all possible fillings of a polarized family with fixed general
+      fibers. This problem derives from the study on the compactification of
+      moduli spaces. In this talk, we show that such minimization implies the
+    slope semistability of the fiber if the central fiber is smooth.</span>
+
+  </div>
+
+<div id="Mirko">
+    <span  class="baldtext">Mirko Mauri</span>
+    <span class="italictext">The essential skeletons of pairs and the geometric P=W conjecture
+</span></br>
+    <span  class="text">The geometric P=W conjecture is a conjectural description of the asymptotic behavior of the celebrated non-abelian Hodge correspondence. In particular, it is expected that the dual boundary complex of the compactification of character varieties has the homotopy type of a sphere. In a joint work with Enrica Mazzon and Matthew Stevenson, we manage to compute the first non-trivial examples of dual complexes in the compact case. This requires to develop a new theory of essential skeletons over a trivially-valued field. As a byproduct, inspired by these constructions, we show that certain character varieties appear in degenerations of compact hyper-Kahler manifolds.  In this talk we will explain how these new non-archimedean techniques can shed new light into classical algebraic geometry problems. 
+</span>
+
+  </div>
+
+<div id="Masaru">
+    <span  class="baldtext">Masaru Nagaoka</span>
+    <span class="italictext">On compactifications of contractible affine threefolds into del Pezzo fibrations</span></br>
+    <span  class="text">By the contribution of M. Furushima, N. Nakayama, Th.
+      Peternell and M. Schneider, it is completed to classify all projective
+      compactifications of the affine $3$-space $¥mathbb{A}^3$ with Picard
+      number one.
+      After that, T. Kishimoto observed that their arguments make use of only
+      the contractibility of $¥mathbb{A}^3$ and that the ambient space are
+      Fano manifolds.
+      In this talk, I will consider compactifications of contractible affine
+      threefolds into another special manifolds, i.e. del Pezzo fibrations.
+      Mainly I will introduce a certain type of such compactifications, which
+      seems to have connection with vertical cylinder, and give you examples
+    of such certain compactifications.</span>
+
+  </div>
+
+<div id="Yifei">
+    <span  class="baldtext">Yifei Chen</span>
+    <span class="italictext">Generalized K/k trace and semipositivity on positive characteristic fields
+</span></br>
+    <span  class="text">The motivation of the project is to study semipositivity on positive characteristic fields. The semipositivity fails in positive char fields in general. We found there are some connection with generalized K/k trace in arithematic geometry. This is a joint work with Yi Gu.</span>
+
+  </div>
+
+<div id="Fabio">
+    <span  class="baldtext">Fabio Bernasconi</span>
+    <span class="italictext">Fano varieties in positive characteristics</span></br>
+    <span  class="text">According to the Minimal model Program, Fano varieties constitute one of the building blocks of algebraic varieties. While over the complex numbers we have a good understanding of their behavior. their geometry is still shrouded in mystery over fields of positive characteristic. We will survey some of the known results, explaining where difficulties and subtleties arise and I will discuss some of my recent work aimed to bound their possible pathological behavior.</span>
+
+  </div>
+</body>
+</html>
