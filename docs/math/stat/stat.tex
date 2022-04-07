@@ -1,0 +1,323 @@
+\documentclass[10.9pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+\renewcommand{\refname}{}
+\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\newsectionwidth{0pt} % Stops section indenting
+
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[applemac]{inputenc}
+\usepackage{epstopdf}
+
+%pacchetti matematici-math packages
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+%\usepackage[all]{xy} 
+\usepackage{amscd}
+\usepackage{bbm}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{color}
+%\usepackage{showkeys}
+\numberwithin{equation}{section}
+
+%thms & co
+\newtheorem{theorem}{Theorem}%[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{def.thm}[theorem]{Definition-Theorem}
+\newtheorem{question}[theorem]{Question}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{theoreman}[theorem]{Theorem $A_n$}
+\newtheorem{theorembn}[theorem]{Theorem $B_n$}
+\newtheorem{theoremcn}[theorem]{Theorem $C_n$}
+
+\DeclareMathOperator{\cox}{Cox}
+
+\theoremstyle{definition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{example}[theorem]{Example}
+\newtheorem*{claim}{Claim}
+
+
+\newcommand{\F}{\mathcal{F}}
+\newcommand{\KF}{{K_\F}}
+\newcommand{\NF}{{N_\F}}
+
+
+\newcommand{\TX}{{T_X}}
+
+\newcommand{\KG}{{K_\G}}
+\newcommand{\KX}{{K_X}}
+\newcommand{\KY}{{K_Y}}
+\newcommand{\KZ}{{K_Z}}
+
+\newcommand{\CNF}{{N^*_\F}}
+\newcommand{\CNG}{{N^*_\G}}
+\DeclareMathOperator{\kod}{kod}
+%\input{../../../../Dropbox/latex/macros.ltx}
+
+\makeatletter
+\renewenvironment{thebibliography}[1]
+     {\list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\makeatother
+
+\begin{document}
+
+\name{Roberto Svaldi\\ \\} % Your name at the top
+
+% If you don't want one of the addresses, simply remove all the text in the first or second \address{} bracket
+
+%\address{{\bf University of Cambridge}\\ DPMMS, Room C2.01, \\ Centre for Mathematical Sciences,\\ Wilberforce Road, \\Cambridge CB3 0WB, UK}
+
+\address{{\bf \'Ecole polytechnique f\'ed\'erale de Lausanne } \\ 
+EPFL SB MATH MATH-GE\\
+MA B1 497 (B\^atiment MA)\\ 
+Station 8\\
+CH-1015 Lausanne, Switzerland}
+
+\address{{\bf Personal data} \\ email: roberto.svaldi@epfl.ch\\ 
+home page: \href{https://sma.epfl.ch/~svaldi/}{sma.epfl.ch/$\sim$svaldi/}\\
+} % Your address 2
+\begin{resume}
+
+\section{\centerline{RESEARCH INTERESTS (for the general public)}}
+\noindent\rule[0.5ex]{\linewidth}{.5pt}
+\vspace{-20pt} % Gap between title and text
+
+
+I specialize in algebraic geometry, with a particular interest and emphasis on the study of the 
+birational structure of algebraic varieties and its applications to complex and analytic geometry. 
+
+Algebraic geometry is a more than one hundred-year-old area of Mathematics. It has many connections to other branches, such as number theory 
+and differential geometry. In recent years, algebraic geometry has seen substantially growing its applications to real 
+life problems ranging from coding theory to computational biology. As a link between algebra and geometry, algebraic geometry attempts at
+investigating algebraic objects using geometry and geometric objects using algebra. The algebraic objects considered are common zero 
+sets of polynomials in any number of variables and their transformations are given by polynomial maps.
+One of main the goals in the subject is to classify its objects of study, that are called algebraic varieties.
+Their classification is a rather difficult task, yet a very important one. 
+Its implications are not only limited to geometry per se, but they would find a wide range of applications in mathematics
+and physics.\newline 
+For example, theoretical physicists have shown a lot of interest for certain classes of algebraic varieties, 
+called Calabi-Yau varieties, that naturally arise in the study of string theory. 
+A better understanding of the geometry and the classification of Calabi-Yau varieties would give a fundamental advancement 
+of string theory and would provide a lot of new examples and models to study.
+
+There are two possible approaches to the classification of algebraic varieties:
+\begin{itemize}
+ \item on one hand, we can say that two distinct varieties are equivalent (or isomorphic)
+ if we can stretch the shape of one of them into the shape of the other;
+ \item on the other hand, we can say that two distinct varieties are birational equivalent (or simply, birational)
+ if they both posses isomorphic big open sets.
+\end{itemize}
+
+When two algebraic varieties are birational, many numerical and geometrical quantities that capture their
+shape are preserved. Hence, birational equivalence is a sufficiently coarse equivalence 
+relation among geometrical objects. Birational equivalence can be detected at once if we have knowledge of an important algebraic 
+object naturally attached to an algebraic variety: its field of rational functions.
+Hence, this type of equivalence relation
+is more flexible than just the classification by isomorphism type, as the function field of a variety
+can be described quite easily. Moreover, we are allowed to change the shape of the variety to improve its features
+as long as a huge chunk of it is left untouched: these operations will not change the field of rational functions 
+and hence yield a new variety which is birational to the original one. 
+
+Indeed, this is the leitmotif of the whole birational
+classification process: among all varieties in a given birational class, we would like to find
+one whose geometrical features are best possible. Such variety would be called a minimal model.
+
+One of the main open problems in birational geometry is whether minimal models do exist.
+
+Birational geometers have worked on this problem for about a century.
+We know a sufficiently clear, but conjectural, picture of how the classification process
+should work and what the outcomes should be.\newline
+In fact, if we were able to actually construct minimal models, then it is not too hard to see that algebraic
+varieties should be decomposable into three main types of ``building blocks''.
+These are called:
+\begin{description}
+\item[log-Fano varieties] these are varieties which are very positively curved;
+\item[Calabi-Yau varieties] these are varieties for which the curvature is flat, and
+\item[log-canonical models] these are varieties which are very negatively curved.
+\end{description}  
+The classification scheme then proceeds with the construction of parameter spaces for 
+the three building blocks above. Such parameter spaces are called moduli spaces.
+A parameter space is in simple words a space parametrizing the possible shapes of given geometric objects.
+
+Most of my work so far has revolved around three main themes: 
+\begin{enumerate}
+\item[(1)] Analysis of log-Fano varieties and Calabi-Yau varieties: recent results \cite{hmx.gen.type, BAB} have shown
+that we should expect to be able to construct moduli parameter spaces for log-Fano and general type varieties.
+I made some progress towards giving a positive answer in the Calabi-Yau case
+in low dimension, \cite{mio.lcy}, which is a long-standing open problem.
+This is the first type of result in this direction in the last 20 years.
+In proving this result (in collaboration with G. Di Cerbo), we had to overcome several technical difficulties 
+and we manage to establish new results on the boundedness of certain types of special fibrations.\newline
+I am planning to generalize my results on Calabi-Yau varieties to any dimension
+and thus establish a program to systematically study the possible types of
+varieties that appear in this block.
+\item[(2)] Study of existence and distribution of rational curves on algebraic varieties: 
+rational curves are 2-dimensional spheres embedded in an algebraic variety in a very rigid (holomorphic) way.
+Rational curves naturally appear when attempting to construct minimal models. 
+Hence, it is natural to ask what are conditions that imply the existence or absence of rational curves on a given algebraic variety
+and in the former case if and how it is possible to locate such curves. This is one of the leading themes of my research.
+I have given in \cite{mio.hyperb} a new formulation of a classical result in birational geometry, the so-called Cone Theorem, that improves
+our understanding of the position of rational curves with respect to a certain stratification induced by the most singular points of the variety.\newline
+More generally, I am interested in studying the problem of existence of rational curves on algebraic varieties,
+a very classical problem in algebraic geometry, that has been under speculation for a long time, cf. \cite{dem2012} for an account on this topic.
+In \cite{mio.cy}, I show that on Calabi-Yau threefolds rational curves exist in a very large number of cases, 
+solving almost completely a long-standing conjecture of Oguiso, \cite{Ogui93}.
+\item[(3)] Application of techniques from birational geometry to algebraic foliations:
+in collaboration with J. Pereira, see \cite{mio.fol.2}, we are able to apply the type of techniques that have been introduced to study the
+problems from part (1) to obtain some new and long-awaited results in the theory of foliations -- special objects that are used to 
+better understand the curvature of an algebraic variety. These results are completely new as we adopt
+a different point of view on the subject, inspired by techniques in birational geometry, to rewrite the
+now-classical results and show that certain numerical invariants can be effectively computed
+and allow us to show that there are only finitely many types of cases that can happen.
+\end{enumerate}
+
+
+\newpage
+
+\section{\centerline{RESEARCH INTERESTS (for mathematicians)}}
+\noindent\rule[0.5ex]{\linewidth}{.5pt}
+\vspace{-20pt} % Gap between title and text
+
+My main research area is algebraic geometry with connections to complex and analytic geometry.
+I am interested in the study of various aspects of the geometry of algebraic varieties: in particular, 
+the classification of algebraic varieties,the study of the existence and distribution of special varieties -- e.g., rational curves --
+and application of techniques from birational geometry to other fields.
+%In the coming years, I plan to advance these subjects and their mutual connections and relations.
+%Moreover, I plan on finding new ways to connect my research to other fields of mathematics.
+
+Algebraic geometry is a one hundred-year-old area of Mathematics. It has many connections to other branches, such as number theory, 
+commutative algebra and differential geometry. In recent years, algebraic geometry has seen its applications growing substantially  
+in areas ranging from coding theory to computational biology. As a link between algebra and geometry, algebraic geometry attempts at
+investigating algebraic objects using geometry and geometric objects using algebra. The algebraic objects considered are common zero 
+sets of polynomials in more than one variable and their transformations are given by polynomial maps.
+
+As it is often the case in geometry, one of main the goals in this field is to classify algebraic varieties. 
+This is a rather difficult task. \newline
+In dimension one, algebraic curves over the complex numbers are the same as compact Riemann surfaces. 
+In dimension two, algebraic surfaces provide a rich class of examples of $4$-dimensional real manifolds that have been widely
+studied in topology, differential and symplectic geometry and dynamics, to name a few.
+In dimension three, for example, physicists have shown a lot of interest for certain classes of algebraic varieties, 
+called Calabi-Yau varieties, that naturally arise in the study of string theory. 
+A better understanding of the geometry and the classification of Calabi-Yau varieties would give a fundamental advancement 
+of string theory and would provide a lot of new examples and models to study.
+
+In dimension higher than 2 the classification is still very far from being satisfactory. 
+The main issue is the lack of invariants that are sufficiently refined to distinguish among different types of objects. 
+Rather than working with functions and maps that are defined everywhere on algebraic varieties, 
+we may look at meromorphic functions and maps. Birational equivalence can be detected at once if we have knowledge of an important algebraic 
+object naturally attached to an algebraic variety: the field of complex-valued functions which are locally defined as quotients of polynomials. 
+Consider, for example, $\mathbb{C}$ equipped with ratio of polynomials $\frac{f(x)}{g(x)}$. \newline
+The set of all meromorphic (or rational) functions over an algebraic variety is a field and gives an important invariant. 
+Two varieties have isomorphic fields of rational functions if and only if they possess isomorphic
+open dense subsets. In this case, we say that they are birational. Birational geometry is the study of algebraic varieties up to 
+birational equivalence.
+
+The classification of curves up to birational equivalence is the same as up to isomorphism. 
+Already for surfaces, though, this is not true anymore. 
+For example, consider $\mathbb{P}^2$ and $\mathbb{P}^1 \times \mathbb{P}^1$. They are birational as they contain a copy of 
+$\mathbb{C}^2$, but they are not isomorphic as they have different topology.
+The Italian school of algebraic geometry, in the first half of the 20th century, 
+found a way to construct a preferred surface	 in a given birational equivalence class, whose geometric features are easy to study. 
+These are named minimal surfaces. In the second half of the 20th century, a big effort in algebraic geometry has been dedicated to 
+extending the ideas employed in the surface case to higher dimension.
+\begin{conjecture}[Existence of minimal models]
+\label{question.mmp}
+It is possible to produce analogues of minimal surfaces for varieties of dimension higher than 2.
+\end{conjecture}
+\vspace{-8pt}
+The Minimal Model Program (MMP), initiated in the '80's by Mori and carried out over the last 30 years by several other 
+authors aims at solving Conjecture \ref{question.mmp} and using this result to classify algebraic varieties.
+
+The MMP approach to the of classification varieties is divided into two steps, that are very different in principle, 
+but are obtained by means of similar techniques, e.g., \cite{ueno.book.75}, \cite{kmm87},\cite{koll-etal-book}, 
+\cite{koll-mor-book}, \cite{vieh.book.95}, \cite{kol.mod.13}, \cite{koll-book13}.\newline
+First, one would like to prove the existence of minimal models and hence reduce the 
+birational classification of algebraic varieties to the study of minimal models. \newline
+What happens when a variety fails to be a minimal model? 
+That happens when there are curves along which the tangent bundle is positively curved. 
+The curvature of the tangent bundle governs the birational geometry of the variety.
+For example, it is an important result of Miyaoka and Mori, \cite{miy.mor.unirul.86}, 
+that if through a general point of a variety $X$ there is an algebraic curve on which the 
+determinant of the tangent bundle is positive, then $X$ is uniruled, i.e. it is dominated by a product $\mathbb{P}^1 \times B$.
+Uniruled varieties do not possess minimal models.
+More in general, given a variety $X$ which is not a minimal model, in order to get a new variety birational to $X$ 
+and closer to being a minimal model, one tries to contract the part of $X$ where 
+the curvature has positivity. That part of $X$ contains lots of rational curves, i.e. curves isomorphic to $\mathbb{P}^1$. 
+Hence, it is natural to ask what are conditions that imply the existence or absence of rational curves on a given algebraic variety
+and in the former case if and how it is possible to locate such curves. This is one of the leading themes of my research.
+I have given in \cite{mio.hyperb} a new formulation of the classical result in birational geometry, the so-called Cone Theorem, that improves
+our understanding of the position of rational curves with respect to a certain stratification induced by the most singular points of the variety.
+More generally, I am interested in studying the problem of existence of rational curves on algebraic varieties,
+a very classical problem in algebraic geometry, that has been under speculation for a long time, cf. \cite{dem2012} for an account on this topic.
+In \cite{mio.cy}, I show that on Calabi-Yau threefolds rational curves exist in a very large number of cases, 
+solving almost completely a long-standing conjecture of Oguiso, \cite{Ogui93}.
+
+Minimal models are expected to behave very nicely; 
+namely, they should conjecturally be decomposable into two main building blocks: 
+Calabi-Yau varieties and varieties of general type. A third ingredient, Fano varieties, is
+needed to construct varieties which contain rational curves passing through a general point.
+The classification would then proceed with the study of the geometry of three special types of varieties.
+One of the fundamental questions related to this second step is how many types of 
+Fano varieties, Calabi-Yau varieties and varieties of general type there are.
+The ideal goal is to construct geometrical spaces that parametrize all possible
+shapes for each given type, so-called moduli spaces. Recent results \cite{hmx.gen.type, BAB} have shown
+that we should expect to be able to do that in the Fano and general type case.
+I made some progress towards giving a positive answer in the Calabi-Yau case
+in low dimension, \cite{mio.lcy}.
+This is the first type of result in this direction in the last 20 years.
+In proving this result (in collaboration with G. Di Cerbo), we have to overcome quite
+a few technical difficulties and we manage to establish a foundational
+result on the boundedness of certain types of special fibrations
+that should have several applications also towards the so-called 
+Manin's conjectures in arithmetic geometry, see \cite{leh1, leh2}.
+I am planning to generalize my results on Calabi-Yau varieties to any dimension
+and thus establish a program to systematically study the possible types of
+varieties that appear in this block.
+Moreover, I was able to apply the type of techniques that have been introduced to study this kind of 
+problems to obtain some new and long-awaited results in the theory of foliations
+in collaboration with J. Pereira, \cite{mio.fol.2}.
+
+I am also interested in the geometry of log-Fano varieties, i.e., those varieties 
+on which the curvature of the tangent bundle is positive everywhere, possibly apart from some subvariety of codimension at least $1$.
+Log-Fano varieties appear naturally when a variety $X$ is covered by rational curves. 
+Infact using the techniques of the Minimal Model Program, it is possible to find a birational model of $X$ 
+which is fibered in log-Fano varieties. We still know very little about this class of varieties.
+I have solved, in collaboration with others \cite{mio.num.toric}, a long-standing conjecture of Shokurov, bounding the number of
+components of anticanonical divisors with nice singularities and their relation with toric varieties.
+
+
+
+
+
+
+\newpage
+\section{\centerline{\bf REFERENCES}}
+
+\bibliographystyle{alpha}
+\bibliography{all}
+
+\end{resume} 
+\end{document}

@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: stat.aux
+The style file: alpha.bst
+Database file #1: all.bib
+I was expecting a `,' or a `}'---line 229 of file all.bib
+ : 
+ : @unpublished{mio.hyper,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "dem2012" isn't style-file defined
+--line 495 of file all.bib
+You've used 19 entries,
+            2543 wiz_defined-function locations,
+            674 strings with 7349 characters,
+and the built_in function-call counts, 6762 in all, are:
+= -- 681
+> -- 286
+< -- 18
++ -- 93
+- -- 90
+* -- 436
+:= -- 1142
+add.period$ -- 71
+call.type$ -- 19
+change.case$ -- 104
+chr.to.int$ -- 18
+cite$ -- 19
+duplicate$ -- 303
+empty$ -- 492
+format.name$ -- 117
+if$ -- 1383
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 21
+newline$ -- 109
+num.names$ -- 57
+pop$ -- 103
+preamble$ -- 1
+purify$ -- 127
+quote$ -- 0
+skip$ -- 240
+stack$ -- 0
+substring$ -- 261
+swap$ -- 53
+text.length$ -- 18
+text.prefix$ -- 9
+top$ -- 0
+type$ -- 136
+warning$ -- 0
+while$ -- 60
+width$ -- 25
+write$ -- 268
+(There was 1 error message)
