@@ -8,37 +8,9 @@
 <title>Roberto's teaching home page</title>
 
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Register.LoadHook("[MathJax]/jax/output/HTML-CSS/fonts/STIX/fontdata.js", function () {
-  var HTMLCSS = MathJax.OutputJax["HTML-CSS"];
-
-  MathJax.Hub.Browser.Select({
-    Safari: function (browser) {
-      browser.STIXfontBug = browser.versionAtLeast("5.1") && browser.isMac;
-    },
-    Chrome: function (browser) {
-      var match = navigator.appVersion.match(/AppleWebKit\/(\d+)/);
-      if (match && parseInt(match[1]) > 534) {browser.STIXfontBug = true}
-    }
-  });
-  if (MathJax.Hub.Browser.STIXfontBug) {
-    HTMLCSS.FONTDATA.FONTS["STIXGeneral"].family = "STIXGeneral-Regular";
-    HTMLCSS.FONTDATA.FONTS["STIXGeneral-italic"].family = "STIXGeneral-Italic";
-    delete HTMLCSS.FONTDATA.FONTS["STIXGeneral-italic"].style;
-    HTMLCSS.FONTDATA.FONTS["STIXNonUnicode"].family = "STIXNonUnicode-Regular";
-    HTMLCSS.FONTDATA.FONTS["STIXNonUnicode-italic"].family = "STIXNonUnicode-Italic";
-    delete HTMLCSS.FONTDATA.FONTS["STIXNonUnicode-italic"].style;
-  }
-});
-</script>
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-});
-</script>
-<script type="text/javascript"
-  src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
 </head>
