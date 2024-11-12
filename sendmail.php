@@ -10,9 +10,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Per sapere quale email è stata precompilata, usa l'email dell'hotel (se selezionato)
     $emailHotel = array(
-        "Hotel Susa" => "milano@example.com",
-        "Hotel Dieci" => "roma@example.com",
-        "Hotel Citta Studi" => "napoli@example.com",
+        "Hotel Susa" => "info@hotelsusamilano.it",
+        "Hotel Dieci" => "info@hoteldieci.it",
+        "Hotel Citta Studi" => "info@hotelcittastudi.it",
     );
 
     // Se l'hotel è stato selezionato, usiamo l'email corrispondente
@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email_hotel = $emailHotel[$hotel];  // Impostiamo l'email dell'hotel
     }
 
-    $to = "tuo@email.com";  // Cambia con il tuo indirizzo email
+    
     $subject = "Nuovo messaggio da $nome";
     $message = "Nome: $nome\nEmail: $email\nMessaggio: $messaggio\nData: $data\nHotel: $hotel";  // Aggiungi l'hotel al messaggio
     $headers = "From: $email";
