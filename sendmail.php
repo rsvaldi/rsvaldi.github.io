@@ -8,11 +8,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Per sapere quale email è stata precompilata, usa l'email dell'hotel (se selezionato)
     $emailHotel = array(
-        "Hotel Milano" => "milano@example.com",
-        "Hotel Roma" => "roma@example.com",
-        "Hotel Napoli" => "napoli@example.com",
-        "Hotel Firenze" => "firenze@example.com",
-        "Hotel Venezia" => "venezia@example.com"
+        "Hotel Susa" => "milano@example.com",
+        "Hotel Dieci" => "roma@example.com",
+        "Hotel Citta Studi" => "napoli@example.com",
     );
 
     // Se l'hotel è stato selezionato, usiamo l'email corrispondente
