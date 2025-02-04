@@ -68,8 +68,8 @@ nav ul a:hover {
 }
 
 .flag-icon {
-    width: 15px; /* Set desired width */
-    height: 10px; /* Force fixed height */
+    width: 25px; /* Set desired width */
+    height: 20px; /* Force fixed height */
     object-fit: cover;
     margin-left: 10px;
     cursor: pointer;
